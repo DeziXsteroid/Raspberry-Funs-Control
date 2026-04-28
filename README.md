@@ -1,15 +1,21 @@
-# RPI5 FUN
+<h1 align="center">RPI5 FUN</h1>
 
-![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%205-00d084?style=for-the-badge)
-![Language](https://img.shields.io/badge/C%2B%2B-14-00c2ff?style=for-the-badge)
-![Interface](https://img.shields.io/badge/UI-Terminal-7cf03a?style=for-the-badge)
-![Target](https://img.shields.io/badge/Target-Linux%20ARM64-ffb703?style=for-the-badge)
+<p align="center">
+  <strong>Terminal dashboard and fan control utility for Raspberry Pi 5.</strong>
+</p>
 
-**Terminal dashboard and fan control utility for Raspberry Pi 5.**
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Raspberry%20Pi%205-00d084?style=for-the-badge" alt="Platform" />
+  <img src="https://img.shields.io/badge/C%2B%2B-14-00c2ff?style=for-the-badge" alt="Language" />
+  <img src="https://img.shields.io/badge/UI-Terminal-7cf03a?style=for-the-badge" alt="Interface" />
+  <img src="https://img.shields.io/badge/Target-Linux%20ARM64-ffb703?style=for-the-badge" alt="Target" />
+</p>
 
-RPI5 FUN gives you a fast SSH-friendly monitor for CPU temperature, CPU frequency, per-core load, GPU load, RAM, load average and fan state, plus direct manual PWM control and auto/manual switching in one terminal app.
+<p align="center">
+  RPI5 FUN gives you a fast SSH-friendly monitor for CPU temperature, CPU frequency, per-core load, GPU load, RAM, load average and fan state, plus direct manual PWM control and auto/manual switching in one terminal app.
+</p>
 
-**Copy -> paste -> run**
+## **Copy -> paste -> run**
 
 ```bash
 git clone https://github.com/DeziXsteroid/Raspberry-Fans-Control.git && cd Raspberry-Fans-Control && chmod +x run.sh && ./run.sh
@@ -17,26 +23,39 @@ git clone https://github.com/DeziXsteroid/Raspberry-Fans-Control.git && cd Raspb
 
 **What this command does**
 
-- clones the repository
-- configures the project with CMake
-- builds the binary
-- starts `Raspberry_Fun_Control`
+> clones the repository
+>
+> configures the project with CMake
+>
+> builds the binary
+>
+> starts `Raspberry_Fun_Control`
 
-**Project preview**
+## **Project Preview**
 
-![Auto Check](assets/screenshots/auto-check.png)
-![Fans Control](assets/screenshots/fans-control.png)
+<p align="center">
+  <img src="assets/screenshots/auto-check.png" alt="Auto Check" width="900" />
+</p>
 
-**Why this project is cool**
+<p align="center">
+  <img src="assets/screenshots/fans-control.png" alt="Fans Control" width="900" />
+</p>
 
-- live terminal UI that works well directly on Raspberry Pi and over SSH
-- manual fan control with fixed PWM hold
-- auto fan mode switch with proper manual release
-- configurable system paths from inside the app
-- one-command startup through `run.sh`
-- source-only repository with no junk binaries
+## **Why This Project Is Cool**
 
-**Quick guide**
+> **Live terminal UI** that works well directly on Raspberry Pi and over SSH
+>
+> **Manual fan control** with fixed PWM hold
+>
+> **Auto fan mode** with proper manual release
+>
+> **Runtime settings** for Linux paths right inside the app
+>
+> **One-command startup** through `run.sh`
+>
+> **Clean repository** with source code, docs and screenshots only
+
+## **Quick Guide**
 
 <details>
 <summary><strong>Build manually</strong></summary>
@@ -80,19 +99,27 @@ sudo ./build/Raspberry_Fun_Control
 
 </details>
 
-**Features**
+## **Features**
 
-- CPU temperature, CPU frequency and total CPU usage
-- per-core monitoring for Raspberry Pi 5 cores
-- GPU usage support
-- RAM usage with used and total memory display
-- load average in the footer
-- fan RPM, PWM and current control mode
-- live history strip with low / medium / high visual levels
-- runtime settings editor for Linux paths
-- experimental GPIO memory mode
+> **CPU monitoring** with temperature, frequency and total load
+>
+> **Per-core stats** for Raspberry Pi 5 cores
+>
+> **GPU usage** support
+>
+> **RAM usage** with used and total memory display
+>
+> **Load average** in the footer
+>
+> **Fan status** with RPM, PWM and current mode
+>
+> **Live history strip** with low, medium and high visual levels
+>
+> **Runtime settings editor** for Linux paths
+>
+> **Experimental GPIO memory mode**
 
-**Repository layout**
+## **Repository Layout**
 
 - `main.cpp` terminal UI, menus and live screens
 - `Status_Sys.cpp` system metrics collection
@@ -101,7 +128,7 @@ sudo ./build/Raspberry_Fun_Control
 - `Paths_Sys.h` default paths and startup settings
 - `run.sh` one-command build and launch helper
 
-**Requirements**
+## **Requirements**
 
 - Raspberry Pi 5
 - Debian or Raspberry Pi OS 64-bit
@@ -109,15 +136,6 @@ sudo ./build/Raspberry_Fun_Control
 - C++14 compiler
 - `sudo` access for fan control operations
 
-**macOS note**
-
-You can edit, maintain and publish this repository from macOS without shipping extra binary files.
-
-- no DLL files are needed
-- no Linux binaries should be committed
-- GitHub should contain source code, scripts, screenshots and docs only
-- the project is compiled on Raspberry Pi or another Linux machine
-
-**License**
+## **License**
 
 This repository includes the MIT License.

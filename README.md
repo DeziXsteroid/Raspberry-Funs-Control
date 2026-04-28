@@ -15,7 +15,7 @@
   RPI5 FUN CTRL gives you a fast SSH-friendly monitor for CPU temperature, CPU speed, per-core load, GPU load, RAM, load average and fan state, plus direct manual PWM control, logs and auto/manual switching in one terminal app.
 </p>
 
-## **Copy -> paste -> run**
+## **Download link for linux**
 
 ```bash
 git clone https://github.com/DeziXsteroid/Raspberry-Fans-Control.git && cd Raspberry-Fans-Control && chmod +x run.sh && ./run.sh

@@ -15,7 +15,7 @@
   RPI5 FUN gives you a fast SSH-friendly monitor for CPU temperature, CPU frequency, per-core load, GPU load, RAM, load average and fan state, plus direct manual PWM control and auto/manual switching in one terminal app.
 </p>
 
-## **Copy -> paste -> run**
+## **Download link (Debian/Raspberry Pi OS)**
 
 ```bash
 git clone https://github.com/DeziXsteroid/Raspberry-Fans-Control.git && cd Raspberry-Fans-Control && chmod +x run.sh && ./run.sh
@@ -109,15 +109,6 @@ sudo ./build/Raspberry_Fun_Control
 > **Runtime settings editor** for Linux paths
 >
 > **Experimental GPIO memory mode**
-
-## **Repository Layout**
-
-- `main.cpp` terminal UI, menus and live screens
-- `Status_Sys.cpp` system metrics collection
-- `FanControl_Sys.cpp` fan control logic
-- `Temperature_Sys.cpp` CPU temperature reader
-- `Paths_Sys.h` default paths and startup settings
-- `run.sh` one-command build and launch helper
 
 ## **Requirements**
 

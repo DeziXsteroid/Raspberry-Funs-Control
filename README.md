@@ -1,4 +1,4 @@
-<h1 align="center">RPI5 FUN</h1>
+<h1 align="center">Raspberry Fans Control</h1>
 
 <p align="center">
   <strong>Terminal dashboard and fan control utility for Raspberry Pi 5.</strong>
@@ -41,7 +41,7 @@ git clone https://github.com/DeziXsteroid/Raspberry-Fans-Control.git && cd Raspb
   <img src="assets/screenshots/fans-control.png" alt="Fans Control" width="900" />
 </p>
 
-## **Why This Project Is Cool**
+## **Why This Project?**
 
 > **Live terminal UI** that works well directly on Raspberry Pi and over SSH
 >
